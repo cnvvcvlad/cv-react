@@ -32,18 +32,18 @@ const Contact = () => {
                 </div>
                 <div className="socialNetwork">
                     <ul>
-                        <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/ciobanu-vladislav-88025231/" target="_blank" rel="noopener noreferrer">
                             <h4>LinkedIn</h4>
                             <i className="fab fa-linkedin"></i></a>
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/cnvvcvlad" target="_blank" rel="noopener noreferrer">
                             <h4>Github</h4>
                             <i className="fab fa-github"></i></a>
-                        <a href="" target="_blank" rel="noopener noreferrer">
+                        <a href="https://twitter.com/CiobanuVladisl1/" target="_blank" rel="noopener noreferrer">
                             <h4>Twitter</h4>
                             <i className="fab fa-twitter"></i></a>
-                        <a href="" target="_blank" rel="noopener noreferrer">
-                            <h4>Codepen</h4>
-                            <i className="fab fa-codepen"></i></a>
+                        <a href="https://www.facebook.com/cioban.vladislav/" target="_blank" rel="noopener noreferrer">
+                            <h4>Facebook</h4>
+                            <i className="fab fa-facebook"></i></a>
                     </ul>
                 </div>
             </div>
