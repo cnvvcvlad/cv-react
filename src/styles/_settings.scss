@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+// Polices
+$font-1: 'Nova Round', cursive; // variable globale pour le style de l'ecriture 1 (DAO)
+$font-2: 'Dosis', sans-serif; // si cela ne marche pas, il aura du sans-serif
+$font-3: 'Josefin Sans, serif';
+
+//Colors
+// $color-1: #2a1d52;
+// $color-2: #6C77F4;
+// $color-3: rgb(99, 164, 233);
+// $color-4: #4FEDD2;
+// $color-5: #36D0EA;
+
+$color-1: #6b3395;
+$color-2: #c46d9f;
+$color-3: #74a336;
+$color-4: #d4ac36;
+$color-5: #fbd1fb;
+$white: #ddd; // nuance de blanc pour le webdesign
+$black: #333; // il n'est pas recomandé de mettre du noir pur
+
+//Autres règles de style
+$borderRadius: 25px;
+$shadow: 0 1px 3px #333;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+//Réglage de base
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 1rem auto;
+    max-width: 1200px; // en plein ecran notre application aura une place centrale
+    font-family: $font-1;
+    color: $black;
+    background-image: url("../media/bg1.png");
+
+}
+
+button{
+    cursor: pointer; // quand on passe la dessus on a le petit doigt
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: $black;
+    cursor: pointer;
+}
+
+a:visited{
+    color: $black;
+}
+
+.home, .knowledges, .portfolio, .contact {
+    display: flex;
+
+    @media screen and (max-width: 850px) {
+        display: block !important;
+    }
+}
+
+.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+    margin-left: 1rem;
+
+    @media screen and (max-width: 850px) {
+        margin-left: 0 !important;
+    }
+}

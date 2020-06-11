@@ -1,0 +1,32 @@
+☐ Structure
+    ✔ Navigation @done(20-06-11 11:15)
+    /*Elle nous accompagne sur toutes les pages du site*/
+        ✔ Photo @done(20-06-11 11:13)
+        ✔ Nom Prenom @done(20-06-11 11:13)
+        ✔ Accueil (icone) @done(20-06-11 11:13)
+        ✔ Compétences (icone) @done(20-06-11 11:13)
+        ✔ Portfolio (icone) @done(20-06-11 11:14)
+        ✔ Cotact (icone) @done(20-06-11 11:14)
+        ✔ Icones LinkedIn, GitHub, Twitter, CodePen @done(20-06-11 11:15)
+    ☐ Page d'accueil (CSS, radians, degradé)
+        ✔ Nom Prenom @done(20-06-11 11:12)
+        ✔ Profession @done(20-06-11 11:13)
+        ☐ Bouton Telecharger le CV (pdf)
+    ☐ Page Compétences
+        ✔ Langages @done(20-06-11 14:21)
+        ✔ Expérience @done(20-06-11 20:04)
+        ✔ Diplome (Autodidacte) @done(20-06-11 20:04)
+        ✔ Autres compétences @done(20-06-11 20:04)
+        ✔ Interets @done(20-06-11 20:04)
+    ☐ Page Portfolio
+    /*Appel en BDD ou on stocke nos projets*/
+    /*Affichage conditionnelle , que du CSS | JS | PHP | React*/
+    /*Quand on clique dessus on affiche la description du projet, un code source pour montrer qu'on sait coder, bouton retour*/
+        ☐ CSS
+        ☐ JavaScript
+        ☐ PHP
+        ☐ React
+    ☐ Page Contact
+    /*Affiche les contacts, boutons Fb, Tw, Git, etc*/
+    /*Lorqu'on clique sur l'email, on affcihe "email copié", pareil pour le tel*/
+✔ Image en-tete et title @done(20-06-06 08:10)
