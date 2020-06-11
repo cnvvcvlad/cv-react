@@ -7,7 +7,7 @@ const Experience = () => {
             <div className="exp-1">
                 <h4>Stagiaire développement web</h4>
                 <h5>2019</h5>
-                <p>C’est dans le cadre de ma formation à l’AFPA Creteil et durant  la période de stage, j’ai développé plusieurs application web, qui sont présentées dans le portfolio.</p>
+                <p>C’est dans le cadre de ma formation à l’AFPA Creteil et durant  la période de stage, j’ai développé plusieurs applications web, qui sont présentées dans le portfolio.</p>
             </div>
 
             <div className="exp-2">
