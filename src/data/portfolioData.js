@@ -34,5 +34,14 @@ export const portfolioData = [
     source: 'https://github.com/cnvvcvlad/cv-react',
     info: 'Voici mon première CV en ligne. Il est codé en JavaScript et le framework React !',
     picture: './media/projet-cv-react.png'
+  },
+  {
+    id: 5,
+    name: 'Symfony Blog',
+    languages: ['symfony', 'css', 'php'],
+    languagesIcons: ['fab fa-symfony', 'fab fa-css3-alt', 'fab fa-php'],
+    source: 'https://github.com/cnvvcvlad/Projet-symfony',
+    info: 'Dans le but de mieux maitriser le PHP et un de ses frameworks j\'ai décidé d\'utiliser la technologie web Symfony pour développer ma plateforme web.',
+    picture: './media/projet-symfony-1.png'
   }
 ]

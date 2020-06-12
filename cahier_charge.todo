@@ -8,25 +8,26 @@
         ✔ Portfolio (icone) @done(20-06-11 11:14)
         ✔ Cotact (icone) @done(20-06-11 11:14)
         ✔ Icones LinkedIn, GitHub, Twitter, CodePen @done(20-06-11 11:15)
-    ☐ Page d'accueil (CSS, radians, degradé)
+    ✔ Page d'accueil (CSS, radians, degradé) @done(20-06-12 09:10)
         ✔ Nom Prenom @done(20-06-11 11:12)
         ✔ Profession @done(20-06-11 11:13)
-        ☐ Bouton Telecharger le CV (pdf)
+        ✔ Bouton Telecharger le CV (pdf) @done(20-06-12 09:10)
     ☐ Page Compétences
         ✔ Langages @done(20-06-11 14:21)
         ✔ Expérience @done(20-06-11 20:04)
         ✔ Diplome (Autodidacte) @done(20-06-11 20:04)
         ✔ Autres compétences @done(20-06-11 20:04)
         ✔ Interets @done(20-06-11 20:04)
-    ☐ Page Portfolio
+        ☐ Réglage du style CSS
+    ✔ Page Portfolio @done(20-06-12 09:10)
     /*Appel en BDD ou on stocke nos projets*/
     /*Affichage conditionnelle , que du CSS | JS | PHP | React*/
     /*Quand on clique dessus on affiche la description du projet, un code source pour montrer qu'on sait coder, bouton retour*/
-        ☐ CSS
-        ☐ JavaScript
-        ☐ PHP
-        ☐ React
-    ☐ Page Contact
+        ✔ CSS @done(20-06-12 09:10)
+        ✔ JavaScript @done(20-06-12 09:10)
+        ✔ PHP @done(20-06-12 09:10)
+        ✔ React @done(20-06-12 09:10)
+    ✔ Page Contact @done(20-06-12 09:10)
     /*Affiche les contacts, boutons Fb, Tw, Git, etc*/
     /*Lorqu'on clique sur l'email, on affcihe "email copié", pareil pour le tel*/
 ✔ Image en-tete et title @done(20-06-06 08:10)
