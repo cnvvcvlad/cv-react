@@ -19,7 +19,8 @@
         ✔ Autres compétences @done(20-06-11 20:04)
         ✔ Interets @done(20-06-11 20:04)
         ☐ Réglage du style CSS
-    ✔ Page Portfolio @done(20-06-12 09:10)
+    ☐ Page Portfolio
+        ☐ Pagination 
     /*Appel en BDD ou on stocke nos projets*/
     /*Affichage conditionnelle , que du CSS | JS | PHP | React*/
     /*Quand on clique dessus on affiche la description du projet, un code source pour montrer qu'on sait coder, bouton retour*/

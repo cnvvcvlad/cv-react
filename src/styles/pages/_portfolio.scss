@@ -220,22 +220,31 @@
   }
 }
 @media (max-width: 520px){
-  .radioDisplay {
-    display: none !important;
-  }
-  .portfolioContent {
-    grid-template-rows: 1fr !important;
-
-    .project {
-      grid-template-rows: 30px 40px 80px 40px !important;
-      width: 98% !important;
-
-      img {
-        height: 100% !important;
-      }
+  .portfolio {
+    .radioDisplay {
+      // display: none !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      align-content: center;
     }
-    .infosContent {
-      width: 100% !important;
+    .portfolioContent {
+      grid-template-rows: 1fr !important;
+      min-height: 30vh;
+      
+      .project {
+        grid-template-rows: 30px 40px 80px 40px !important;
+        width: 98% !important;
+        max-height: 100%;
+        
+        img {
+          height: 100% !important;
+        }
+      }
+      .infosContent {
+        width: 100% !important;
+      }
     }
   }
 }
