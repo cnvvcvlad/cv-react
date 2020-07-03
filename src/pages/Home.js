@@ -12,8 +12,8 @@ const Home = () => {
             {/* on appele la composante Navigation  */}
             <Navigation></Navigation>
             <div className="homeContent">
-                <Hello></Hello>
                 <div className="content">
+                    <Hello></Hello>
                     <h1>Ciobanu Vladislav</h1>
                     <h2>Développeur web et web mobile</h2>
                     <div className="pdf">
