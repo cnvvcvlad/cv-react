@@ -8,7 +8,7 @@ const Navigation = () => {
             <div className="id">
                 <div className="idContent">
                     {/* on recupere l'image du dossier public */}
-                    <img width="150" height="160" src="./media/ma_photo.png" alt="ma_photo" />
+                    <a href="./media/ma_photo.png"><img width="150" height="160" src="./media/ma_photo.png" alt="ma_photo" /></a>
                     <h3>Ciobanu Vladislav</h3>
                 </div>
             </div>
