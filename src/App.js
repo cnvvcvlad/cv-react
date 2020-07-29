@@ -1,5 +1,5 @@
 import React from 'react'; // utilise la librairie React
-import { BrowserRouter, Router, Switch, Route } from 'react-router-dom'; // on va chercher des elements de la librairie react-router-dom
+import { BrowserRouter, Switch, Route } from 'react-router-dom'; // on va chercher des elements de la librairie react-router-dom
 //import de toutes nos pages de l'appplication, on les ecrit avec le chemin absolu
 import Home from './pages/Home';
 import Knowledges from './pages/Knowledges';
