@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from '../components/Navigation';
 import Hello from '../components/Hello';
+import Counter from '../components/Counter';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Navigation></Navigation>
             <div className="homeContent">
                 <div className="content">
+                    <Counter></Counter>
                     <Hello></Hello>
                     <h1>Ciobanu Vladislav</h1>
                     <h2>Développeur web et web mobile</h2>
