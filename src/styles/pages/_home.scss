@@ -20,7 +20,7 @@
 
         .content {
             position: absolute;
-            top: 20%;
+            top: 15%;
             left: 13%;
             font-family: $font-1;
 
@@ -34,23 +34,25 @@
 
             h2 {
                 font-size: 2.5rem;
-                padding: 1.5rem 0 7rem;
+                padding: 1.5rem 0 3rem;
                 color: $color-3;
                 text-shadow: 1px 4px 1px $black;
             }
 
             .pdf {
+                display: flex;
+                flex-wrap: wrap;;
                 a {
                     font-size: 1.5rem;
                     background: $color-3;
-                    padding: 1rem 2rem;
+                    padding: 0.5rem 2rem;
                     border-radius: $borderRadius;
                     box-shadow: 0 5px 1px rgb(15, 15, 15);
                     transition: 0.2s ease;
 
                     &:hover {
                         background: $color-4;
-                    }
+                    }   
                 }
             }
         }
@@ -60,14 +62,19 @@
 @media screen and (max-width: 850px) {
     .homeContent {
         margin: 0 !important;
-        min-height: 600px !important;
+        min-height: 750px !important;
     }
 }
 
 @media screen and (max-width: 580px) {
     .homeContent {
+        min-height: 650px !important;
         &:after {
             background: url('../../media/chessPlayer.jpg') no-repeat 60% 50%/cover !important;
+        }
+
+        .content {
+            top: 5% !important;
         }
 
         h1 {
@@ -76,6 +83,13 @@
 
         h2 {
             font-size: 1.8rem !important;
+        }
+        
+        .pdf{
+            flex-direction: column;
+            align-content: flex-start;
+            min-height: 105px;
+            justify-content: space-between;
         }
     }
 }

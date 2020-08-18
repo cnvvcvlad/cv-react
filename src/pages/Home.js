@@ -19,7 +19,8 @@ const Home = () => {
                     <h1>Ciobanu Vladislav</h1>
                     <h2>Développeur web et web mobile</h2>
                     <div className="pdf">
-                        <a href="./media/CV.pdf" target="_blank" download>Télécharger CV</a>
+                        <a className="fr" href="./media/CV.pdf" target="_blank" download>Télécharger CV(fr)</a>
+                        <a className="eng" href="./media/resume.pdf" target="_blank" download>Resume(eng)</a>
                     </div>
                 </div>
             </div>
