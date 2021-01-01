@@ -5,17 +5,19 @@ class Languages extends Component {
     //on ajoute un state pour stocker des choses
     state = {
         languages: [
-            { id: 1, value: "HTML", xp: 1.5 },
-            { id: 2, value: "CSS", xp: 1.3 },
-            { id: 3, value: "JavaScript", xp: 1.0 },
-            { id: 4, value: "PHP", xp: 1.1 },
-            { id: 5, value: "C++", xp: 0.5 },
+            { id: 1, value: "HTML", xp: 2.0 },
+            { id: 2, value: "CSS", xp: 1.9 },
+            { id: 3, value: "JavaScript", xp: 1.5 },
+            { id: 4, value: "PHP", xp: 1.7 },
+            { id: 5, value: "C++", xp: 1.0 },
         ],
         frameworks: [
-            { id: 1, value: "React", xp: 0.1 },
-            { id: 2, value: "Bootstrap", xp: 1 },
-            { id: 3, value: "Symfony", xp: 0.5 },
-            { id: 4, value: "SASS", xp: 0.5 }
+            { id: 1, value: "React", xp: 0.7 },
+            { id: 2, value: "Bootstrap", xp: 1.5 },
+            { id: 3, value: "Symfony", xp: 1.0 },
+            { id: 4, value: "SASS", xp: 0.9 },
+            { id: 5, value: "SQL", xp: 1.5 }
+
         ]
     }
     render() {
@@ -32,7 +34,7 @@ class Languages extends Component {
                 <ProgressBar
                     languages={frameworks}
                     className="frameworkDisplay"
-                    title="frameworks"
+                    title="frameworks and libraries"
                 />
             </div>
         );

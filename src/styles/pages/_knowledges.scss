@@ -5,8 +5,8 @@
         position: relative;
         overflow: hidden;
         display: grid;
-        grid-template-columns: 38% 1fr 1fr;
-        grid-template-rows: 70% 30%;
+        grid-template-columns: 28% 1fr 1fr;
+        grid-template-rows: 75% 25%;
         // on défini les aréas des nos components
         grid-template-areas: 
             "L E D"
@@ -52,7 +52,7 @@
                 color: $white;
 
                 span {
-                    width: 36%;
+                    width: 25%;
 
                     &:nth-child(2) {
                         text-align: center;
@@ -61,14 +61,20 @@
 
                     &:nth-child(3) {
                         text-align: right;
-                        width: 44%;
+                        width: 38%;
                     }
 
-                    &:nth-child(2):before, &:nth-child(3):before {
+                    &:nth-child(4) {
+                        text-align: right;
+                        width: 37%;
+                    }
+
+                    &:nth-child(2):before, &:nth-child(3):before, &:nth-child(4):before {
                         content: "";
                         background: rgba(180, 179, 179, 0.5);
                         position: absolute;
-                        height: 150px;
+                        height: 12rem;
+                        // height: 160px;
                         width: 1px;
                         transform: translate(9px, 19px);
                     }
@@ -112,11 +118,12 @@
             margin: 0 0 .5rem .5rem;
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 10% 1fr 1fr;
+            grid-template-rows: 6% 0.3fr 0.2fr 1.5fr;
             grid-template-areas: 
                 "1"
                 "2"
-                "3";
+                "3"
+                "4";
             
             h3 {
                 grid-area: 1;                
@@ -132,11 +139,12 @@
             margin: 0 0 .5rem .5rem;
             display: grid;
             grid-template-columns: 1fr;
-            grid-template-rows: 10% 1fr 1fr;
+            grid-template-rows: 6% 28% 28% 1fr;
             grid-template-areas: 
                 "1"
                 "2"
-                "3";
+                "3"
+                "4";
             
             h3 {
                 grid-area: 1;                
@@ -153,7 +161,7 @@
 
             .list {
                 display: flex;
-                width: 80%;
+                width: 95%;
                 height: 100%;
                 margin: 0 auto;
                 justify-content: space-between;
@@ -220,8 +228,9 @@
             padding: .2rem 1rem !important;
         }
         span {
-            &:nth-child(2):before, &:nth-child(3):before {                        
-                        height: 130px !important;
+            &:nth-child(2):before, &:nth-child(3):before, &:nth-child(4):before {                        
+                        // height: 130px !important;
+                        height: 10.5rem !important;
                         
                     }
         }
@@ -232,7 +241,7 @@
     .knowledgesContent {
         display: grid !important;
         grid-template-columns: 1fr !important;
-        grid-template-rows: 1fr 1fr 1fr 1fr 180px !important;
+        grid-template-rows: 1fr 0.6fr 0.7fr 0.35fr 180px !important;
         // grid-template-areas: 
         //     "1"
         //     "2"
@@ -246,6 +255,7 @@
         .experience {
             grid-area: 2 !important;
             margin: 0 !important;
+            // height: 60vh;
         }
 
         .diplome {

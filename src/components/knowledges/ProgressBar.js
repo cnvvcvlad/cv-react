@@ -8,11 +8,12 @@ const ProgressBar = (props) => {
                 <span>Années d'expérience</span>
                 <span>1 an</span>
                 <span>2 ans</span>
+                <span>3 ans</span>
             </div>
 
             <div>
                 {props.languages.map((item) => {
-                    let xpYears = 2;
+                    let xpYears = 3.1;
                     // valeur en pourcentage pour l'utiliser ensuite à styliser notre barre de progression
                     let progressBar = item.xp / xpYears * 100 + '%';
 
