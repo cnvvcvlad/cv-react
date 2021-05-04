@@ -9,7 +9,7 @@ class Languages extends Component {
             { id: 2, value: "CSS", xp: 1.9 },
             { id: 3, value: "JavaScript", xp: 1.5 },
             { id: 4, value: "PHP", xp: 1.7 },
-            { id: 5, value: "C++", xp: 1.0 },
+            { id: 5, value: "C/C++", xp: 1.0 },
         ],
         frameworks: [
             { id: 1, value: "React", xp: 0.7 },
