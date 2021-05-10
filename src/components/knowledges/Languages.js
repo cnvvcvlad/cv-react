@@ -5,18 +5,18 @@ class Languages extends Component {
     //on ajoute un state pour stocker des choses
     state = {
         languages: [
-            { id: 1, value: "HTML", xp: 2.0 },
-            { id: 2, value: "CSS", xp: 1.9 },
-            { id: 3, value: "JavaScript", xp: 1.5 },
-            { id: 4, value: "PHP", xp: 1.7 },
-            { id: 5, value: "C/C++", xp: 1.0 },
+            { id: 1, value: "HTML", xp: 2.5 },
+            { id: 2, value: "CSS", xp: 2.4 },
+            { id: 3, value: "JavaScript", xp: 2.0 },
+            { id: 4, value: "PHP", xp: 2.2 },
+            { id: 5, value: "C/C++", xp: 1.5 },
         ],
         frameworks: [
-            { id: 1, value: "React", xp: 0.7 },
-            { id: 2, value: "Bootstrap", xp: 1.5 },
-            { id: 3, value: "Symfony", xp: 1.0 },
-            { id: 4, value: "SASS", xp: 0.9 },
-            { id: 5, value: "SQL", xp: 1.5 }
+            { id: 1, value: "React", xp: 1.2 },
+            { id: 2, value: "Bootstrap", xp: 2.0 },
+            { id: 3, value: "Symfony", xp: 1.5 },
+            { id: 4, value: "SASS", xp: 1.4 },
+            { id: 5, value: "SQL", xp: 2.0 }
 
         ]
     }

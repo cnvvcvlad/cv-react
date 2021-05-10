@@ -43,5 +43,14 @@ export const portfolioData = [
     source: 'https://github.com/cnvvcvlad/Projet-symfony',
     info: 'Dans le but de mieux maitriser le PHP et un de ses frameworks j\'ai décidé d\'utiliser la technologie web Symfony pour développer ma plateforme web.',
     picture: './media/projet-symfony-1.png'
+  },
+  {
+    id: 6,
+    name: 'Simplon Theater',
+    languages: ['html', 'css', 'javascript'],
+    languagesIcons: ['fab fa-html5', 'fab fa-css3-alt', 'fab fa-js'],
+    source: 'https://github.com/cnvvcvlad/SimplonTheater',
+    info: 'Une application simple pour permettre aux utilisateurs de choisir des places de cinéma dans une salle au format fixe.',
+    picture: './media/simplon_theater.png'
   }
 ]
