@@ -14,7 +14,7 @@ class Languages extends Component {
         frameworks: [
             { id: 1, value: "React", xp: 1.2 },
             { id: 2, value: "Bootstrap", xp: 2.0 },
-            { id: 3, value: "Symfony", xp: 1.5 },
+            { id: 3, value: "Symfony", xp: 2.2 },
             { id: 4, value: "SASS", xp: 1.4 },
             { id: 5, value: "SQL", xp: 2.0 }
 
