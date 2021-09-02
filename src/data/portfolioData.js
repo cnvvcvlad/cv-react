@@ -37,12 +37,12 @@ export const portfolioData = [
   },
   {
     id: 5,
-    name: 'Symfony Blog',
+    name: 'Symfony Blog Immo',
     languages: ['symfony', 'css', 'php'],
     languagesIcons: ['fab fa-symfony', 'fab fa-css3-alt', 'fab fa-php'],
-    source: 'https://github.com/cnvvcvlad/Projet-symfony',
+    source: 'https://gitlab.com/democvidev/lezenimmo',
     info: 'Dans le but de mieux maitriser le PHP et un de ses frameworks j\'ai décidé d\'utiliser la technologie web Symfony pour développer ma plateforme web.',
-    picture: './media/projet-symfony-1.png'
+    picture: './media/projet-symfony-2.png'
   },
   {
     id: 6,
