@@ -22,8 +22,8 @@ class Project extends Component {
             <div className="project">
                 <div className="icons">
                     {languagesIcons.map(icon => <i className={icon} key={icon}></i>)}
-                </div>
-                <h3>{name}</h3>
+                </div>                
+                <a href={picture} title="Image plein ecran"><h3>{name}</h3></a>
                 <img src={picture} alt="" onClick={this.handleInfo} />
                 <span className="infos" onClick={this.handleInfo}>
                     <i className="fas fa-plus-circle"></i>
