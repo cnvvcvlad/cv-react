@@ -47,7 +47,7 @@ export const portfolioData = [
     source: 'https://gitlab.com/democvidev/lezenimmo',
     info: 'Dans le but de mieux maitriser le PHP et un de ses frameworks j\'ai décidé d\'utiliser la technologie web Symfony pour développer ma plateforme web.',
     picture: './media/projet-symfony-2.png',
-    urlAdress: 'https://zenimmo.42web.io/'
+    urlAdress: 'https://simplon-blog-cityzens.herokuapp.com/'
   },
   {
     id: 6,
@@ -58,5 +58,15 @@ export const portfolioData = [
     info: 'Une application simple pour permettre aux utilisateurs de choisir des places de cinéma dans une salle au format fixe.',
     picture: './media/simplon_theater.png',
     urlAdress: ''
+  },
+  {
+    id: 7,
+    name: 'FestivalTechnonite',
+    languages: ['symfony', 'css', 'php'],
+    languagesIcons: ['fab fa-symfony', 'fab fa-css3-alt', 'fab fa-php'],
+    source: 'https://github.com/democvidev/FestivalTechnonite',
+    info: 'Une application développée en Symfony pour communiquer sur l\'évènement et recevoir les réservations aux 3 concerts prévus chaque jour',
+    picture: './media/projet-festival-technonite.png',
+    urlAdress: 'https://festival-technonite.herokuapp.com/'
   }
 ]
