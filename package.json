@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "countapi-js": "^1.0.1",
     "fallback-local-storage": "^1.2.0",
-    "node-sass": "^7.0.3",
+    "node-sass": "^9.0.0",
     "react": "^16.13.1",
     "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.1",
