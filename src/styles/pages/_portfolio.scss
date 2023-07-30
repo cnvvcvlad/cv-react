@@ -5,7 +5,7 @@
     min-height: $minHeight;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 1fr;
-    grid-template-areas: 
+    grid-template-areas:
       "1"
       "2";
   }
@@ -30,12 +30,12 @@
       z-index: 2;
       @include verticalCenter;
 
-      input[type="radio"]{
+      input[type="radio"] {
         visibility: hidden;
         position: relative;
 
         &:before {
-          content:'';
+          content: '';
           visibility: visible;
           position: absolute;
           top: -4px;
@@ -47,12 +47,13 @@
           cursor: pointer;
           transition: 0.3s;
         }
+
         &:after {
-          content:'';
+          content: '';
           visibility: visible;
           position: absolute;
           top: -4px;
-          left: -12px; 
+          left: -12px;
           height: .9rem;
           width: .9rem;
           border-radius: 50%;
@@ -63,19 +64,23 @@
           transform-origin: center;
         }
       }
+
       input:checked:after {
         transform: scale(1.17) translate(-25%, -25%);
         top: 2px;
         left: -6px;
       }
-      input:checked + label {
+
+      input:checked+label {
         color: $color-4;
       }
+
       label {
         cursor: pointer;
       }
     }
   }
+
   .projects {
     grid-area: 2;
     display: flex;
@@ -93,12 +98,13 @@
       box-shadow: $shadow;
       display: grid;
       grid-template-rows: 15% 15% 55% 15%;
-      grid-template-areas: 
+      grid-template-areas:
         "1"
         "2"
         "3"
         "4";
     }
+
     .icons {
       grid-area: 1;
       display: flex;
@@ -112,6 +118,7 @@
         text-shadow: 0 0px 1px $color-1;
       }
     }
+
     h3 {
       grid-area: 2;
       font-family: $font-2;
@@ -120,6 +127,7 @@
       justify-content: left;
 
     }
+
     img {
       grid-area: 3;
       object-fit: cover;
@@ -131,6 +139,7 @@
       cursor: pointer;
       @include verticalCenter;
     }
+
     .infos {
       grid-area: 4;
       color: $color-4;
@@ -143,6 +152,7 @@
         transform: scale(1.1);
       }
     }
+
     .showInfos {
       position: absolute;
       top: 0;
@@ -150,7 +160,7 @@
       bottom: 0;
       right: 0;
       background: rgba(0, 0, 0, 0.507);
-      animation: popup .3s ease forwards ;
+      animation: popup .3s ease forwards;
       transform-origin: center;
 
       .infosContent {
@@ -170,18 +180,21 @@
         @keyframes popup {
           to {
             transform: scale(1);
-          } 
+          }
         }
       }
+
       .head {
         display: flex;
         justify-content: space-around;
         margin: 1rem 0;
       }
+
       h2 {
         text-align: left;
         margin-bottom: 1rem;
       }
+
       .button {
         cursor: pointer;
         color: $color-1;
@@ -194,18 +207,34 @@
           background: $color-4;
         }
       }
+
       .text {
         text-align: justify;
         padding-bottom: 1rem;
       }
+
       .return {
         margin: 1rem auto;
         width: 200px;
       }
     }
   }
+
+  .pagination {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+
+    li {
+      display: inline;
+      padding: 0 .5rem;
+      cursor: pointer;
+      margin: 5px;
+    }
+  }
 }
-@media (max-width: 650px) and (min-width: 521px){
+
+@media (max-width: 650px) and (min-width: 521px) {
   .portfolioContent {
     .project {
       width: 49% !important;
@@ -214,12 +243,14 @@
         font-size: 1rem;
       }
     }
+
     .infosContent {
       width: 100% !important;
     }
   }
 }
-@media (max-width: 520px){
+
+@media (max-width: 520px) {
   .portfolio {
     .radioDisplay {
       // display: none !important;
@@ -229,24 +260,27 @@
       align-items: flex-start;
       align-content: center;
     }
+
     .portfolioContent {
       grid-template-rows: 1fr !important;
       min-height: 30vh;
-      
+
       .project {
         grid-template-rows: 30px 40px 130px 40px !important;
         width: 98% !important;
         // max-height: 100%;
         min-height: 250px;
-        h3{
+
+        h3 {
           justify-content: center !important;
         }
-        
+
         img {
           height: 100% !important;
           width: 80%;
         }
       }
+
       .infosContent {
         width: 100% !important;
       }
