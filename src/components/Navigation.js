@@ -16,7 +16,7 @@ const Navigation = () => {
                 <ul>
                     <li>
                         {/* on injecte la className que quand c'est active (on applique du style, couleurs, etc...)  */}
-                        <NavLink exact to="/home" activeClassName="navActive">
+                        <NavLink exact to="/" activeClassName="navActive">
                             <i className="fas fa-home"></i>
                             <span>Accueil</span>
                         </NavLink>

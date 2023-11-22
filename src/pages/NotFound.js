@@ -11,7 +11,7 @@ const NotFound = () => {
         <div className="notFound">
             <div className="notFOundContent">
                 <h3>Désolé cette page n'existe pas !</h3>
-                <NavLink exact to="/home">
+                <NavLink exact to="/">
                     <i className="fas fa-home"></i>
                     <span>Accueil</span>
                 </NavLink>
