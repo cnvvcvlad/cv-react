@@ -17,7 +17,7 @@ const App = () => {
 
     <>
       {/* Notre navigation est dans BrowserRouter */}
-      <BrowserRouter basename="/home">
+      <BrowserRouter basename="/">
         {/* on utilise un switch case pour que la page 404 s'affiche au bon endroit */}
         <Switch>
           {/* Creation des routes et on ajoute la page componente */}
