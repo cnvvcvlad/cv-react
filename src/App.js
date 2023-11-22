@@ -17,11 +17,11 @@ const App = () => {
 
     <>
       {/* Notre navigation est dans BrowserRouter */}
-      <BrowserRouter basename="/cv-react">
+      <BrowserRouter basename="/">
         {/* on utilise un switch case pour que la page 404 s'affiche au bon endroit */}
         <Switch>
           {/* Creation des routes et on ajoute la page componente */}
-          <Route path="/cv-react" exact component={Home}></Route> {/*Notre page d'accueil*/}
+          <Route path="/" exact component={Home}></Route> {/*Notre page d'accueil*/}
           <Route path="/competences" component={Knowledges}></Route> {/*Notre page competences*/}
           <Route path="/portfolio" component={Portfolio}></Route> {/*Notre page portofolio*/}
           <Route path="/contact" component={Contact}></Route> {/*Notre page contact*/}
